@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-agency-website/static/css/main.6471b3ab.chunk.css",
+    "main.js": "/react-agency-website/static/js/main.fb106445.chunk.js",
+    "main.js.map": "/react-agency-website/static/js/main.fb106445.chunk.js.map",
+    "runtime-main.js": "/react-agency-website/static/js/runtime-main.327eb88e.js",
+    "runtime-main.js.map": "/react-agency-website/static/js/runtime-main.327eb88e.js.map",
+    "static/js/2.0bc45ad3.chunk.js": "/react-agency-website/static/js/2.0bc45ad3.chunk.js",
+    "static/js/2.0bc45ad3.chunk.js.map": "/react-agency-website/static/js/2.0bc45ad3.chunk.js.map",
+    "index.html": "/react-agency-website/index.html",
+    "precache-manifest.7a96e76201b30550219798cdd83c80b0.js": "/react-agency-website/precache-manifest.7a96e76201b30550219798cdd83c80b0.js",
+    "service-worker.js": "/react-agency-website/service-worker.js",
+    "static/css/main.6471b3ab.chunk.css.map": "/react-agency-website/static/css/main.6471b3ab.chunk.css.map",
+    "static/media/logo.png": "/react-agency-website/static/media/logo.10678e9b.png",
+    "static/media/p1.jpg": "/react-agency-website/static/media/p1.eb77bfb5.jpg",
+    "static/media/p2.jpg": "/react-agency-website/static/media/p2.d13486a1.jpg",
+    "static/media/p3.jpg": "/react-agency-website/static/media/p3.2d13453b.jpg",
+    "static/media/p4.jpg": "/react-agency-website/static/media/p4.b33b9181.jpg",
+    "static/media/p5.jpg": "/react-agency-website/static/media/p5.b4ea08bb.jpg",
+    "static/media/p6.jpg": "/react-agency-website/static/media/p6.57b88216.jpg",
+    "static/media/App.scss": "/react-agency-website/static/media/shape2.4164b7fa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.327eb88e.js",
+    "static/js/2.0bc45ad3.chunk.js",
+    "static/css/main.6471b3ab.chunk.css",
+    "static/js/main.fb106445.chunk.js"
+  ]
+}
