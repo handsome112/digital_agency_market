@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="row align-items-center">
                     <div className="col-sm-12">
                         <p className="mt-4 mb-4 title-font-2">
-                        ©2019 A. All rights reserved.
+                        ©2023 A. All rights reserved.
                         </p>
                     </div>
                 </div>

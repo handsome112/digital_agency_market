@@ -15,7 +15,7 @@ $secondaryFont: 'Nunito', sans-serif;
 $thirdFont: 'Courgette', cursive;
 
 /* sizes */
-$titleFontSize: 100px;
+$titleFontSize: 70px;
 
 
 
@@ -127,7 +127,9 @@ $titleFontSize: 100px;
         }
 
         p {
-            font-size: 1.6rem;
+            font-size: 1.2rem;
+            line-height: 1.4rem;
+            text-align: left;
         }
     }
 
@@ -216,7 +218,7 @@ footer {
 .contact {
 
     p {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
 
     .contact-form {
@@ -397,6 +399,13 @@ footer {
         display: none;
     } 
 }
+
+//handsome touched this code----------------
+
+.left_align {
+    text-align: left !important;
+}
+
 /* for mobile phones (portrait) */
 @media (min-width: 320px) and (max-width: 480px) {
 

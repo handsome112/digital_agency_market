@@ -7,7 +7,7 @@ import '../App.scss';
 
 const Body = () => {
 
-    return(
+    return (
         <>
             <section className="about-us-area text-white">
                 <div className="container text-center">
@@ -15,18 +15,22 @@ const Body = () => {
                         <div className="col-12">
                             <div className="about-us-text-area mb-5 mt-5">
                                 <h2 className="about-us-text title-font-3">
-                                    WHAT WE DO
+                                    WHO WE ARE
                                 </h2>
                                 <p>
-                                The world is digitally transforming and embracing new marketing technologies every day. With a cornucopia of marketing strategies to choose from, you need the most effective one for your brand. Eventually, it is going to drive higher conversion rates and revenues. Mighty Warners, a profound digital marketing company in Dubai, comes with the best marketing strategies to achieve this goal.
+                                    Beauty Power was established with the expertise of a team of marketing, sales and procurement professionals,
+                                     specializing in the beauty industry.
+                                    Based in the UAE, we have curated our service offers to cater to the specialized requirements of the beauty 
+                                    salons in the region, ensuring only the highest-quality customized services are provided to our esteemed 
+                                    clients, thus supporting their business success goals.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            
-            <Portfolio/>
+
+            <Portfolio />
 
             <section className="lead">
                 <div className="container text-center">
@@ -34,11 +38,11 @@ const Body = () => {
                         <div className="col-12">
                             <div className="lead-title text-white mb-5 mt-4">
                                 <h1 className="title-font">
-                                Let's work together
+                                    Let's work together
                                 </h1>
                                 <p className="mt-4 mb-4 title-font-2">
-                                Scaling-up your business 
-                                is our mission!
+                                    Scaling-up your business
+                                    is our mission!
                                 </p>
                                 <Link to="/contact">
                                     <button className="btn text-white">
