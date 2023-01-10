@@ -7,6 +7,7 @@ $primaryColor: #352793;
 $secondaryColor: #1D4AD1;
 $thirdColor: #130f40;
 $forthColor: #0c2461;
+$blackColor: #000;
 
 /* fonts */
 $primaryFont: 'Paytone One',
@@ -23,11 +24,19 @@ $titleFontSize: 70px;
     text-align: center;
 }
 
+// .row {
+//     width: 80vw !important;
+//     margin: auto;
+// }
+
 /* global classes */
 
 .title-font {
     font-family: $primaryFont;
+    font-size: 120px;
     line-height: 130%;
+    line-height: 200px;
+    font-style: italic !important;
 }
 
 .title-font-2 {
@@ -54,10 +63,12 @@ $titleFontSize: 70px;
 /* --------------------- Banner --------------------- */
 
 .banner {
-    color: white;
+    // color: white;
     margin-top: 60px;
-    background: url('/dubaibannerdigitalm.webp');
-    opacity: 0.8;
+    background-color: white;
+    background: url('/background.png');
+    background-size: 100% 100%;
+    // opacity: 0.8;
 }
 
 .banner-image-mobile {
@@ -67,6 +78,9 @@ $titleFontSize: 70px;
 .banner-image {
     width: 90%;
 }
+.banner-shadow {
+    height: 100px;
+}
 
 .banner-text {
     margin-bottom: 30px;
@@ -74,13 +88,25 @@ $titleFontSize: 70px;
 
 .banner-text h1 {
     // font-size: 36px;
-    font-size: 2.6rem;
+    font-size: 6.6rem;
     font-style: normal;
     text-transform: uppercase;
-    line-height: 3.5rem;
+    text-align: center;
+    line-height: 5rem;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    color: #fff;
+    font-weight: 1000;
+    color: #aa855f;
+}
+
+.banner-text p {
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 23px;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
 }
 
 .banner-text .text-yellow {
@@ -93,31 +119,76 @@ $titleFontSize: 70px;
 
 /*----------------------About us area--------------------------*/
 
-.about-us-area {
-    background: $thirdColor no-repeat;
-    background-image: url('./img/shape2.png');
-    background-position: center;
-    background-size: 400px;
-    padding: 5%;
+// .about-us-area {
+//     background: $thirdColor no-repeat;
+//     background-image: url('./img/shape2.png');
+//     background-position: center;
+//     background-size: 400px;
+//     padding: 5%;
 
+//     .about-us-text-area {
+//         padding: 3em;
+//         background: $forthColor;
+//         -webkit-box-shadow: 0px 0px 46px -17px rgba(0,0,0,0.75);
+//         -moz-box-shadow: 0px 0px 46px -17px rgba(0,0,0,0.75);
+//         box-shadow: 0px 0px 46px -17px rgba(0,0,0,0.75);
+
+//         h2 {
+//             font-weight: 900;
+//             text-transform: uppercase;
+//         }
+//     }
+
+// }
+
+ .about-us-area {
     .about-us-text-area {
-        padding: 3em;
-        background: $forthColor;
-        -webkit-box-shadow: 0px 0px 46px -17px rgba(0,0,0,0.75);
-        -moz-box-shadow: 0px 0px 46px -17px rgba(0,0,0,0.75);
-        box-shadow: 0px 0px 46px -17px rgba(0,0,0,0.75);
 
         h2 {
+            font-size: 56px;
+            letter-spacing: -3px;
+            line-height: 41px;
+            text-transform: uppercase;
+            color: #f8f8f8;
             font-weight: 900;
+            font-family: "Montserrat";
+            text-align: center;
+        }
+
+        p {
+            width: 80%;
+            margin: auto;
+            font-size: 17px;
         }
     }
 
-}
+    // font-size: 56px;
+    // letter-spacing: -3px;
+    // line-height: 41px;
+    // text-transform: uppercase;
+    // color: #f8f8f8;
+    // font-weight: 900;
+    // font-family: "Montserrat";
+    // text-align: center;
+
+ }
 
 /*---------------------- portfolio area --------------------------*/
 
 .portfolio {
     padding: 5%;
+    color: white;
+    // background: url('img/mid_bg.png');
+    background-image: url('/mid_bg.png');
+    // background: linear-gradient(to bottom,  transparent 0px,transparent 50px,#f6f6f6 50%,#f6f6f6 100%);
+    // background: url('/mid_bg.png') top no-repeat, url('/mid_bg2.png') bottom repeat;
+    
+    h2 {
+        width: 60%;
+        margin: auto;
+        text-transform: capitalize;
+    }
+
 
     .portfolio-title {
         padding: 0px 0px 40px 0px;
@@ -136,7 +207,8 @@ $titleFontSize: 70px;
     .portfolio-thumb {
         margin: 0 auto;
         margin-bottom: 9%;
-
+        border-radius: 50%;
+        border: 15px solid white;
         /* width: 100%;
         height: 100%; */
         float: left;
@@ -157,7 +229,7 @@ $titleFontSize: 70px;
             .hover-content {
                 width: 100% !important;
                 height: 100% !important;
-                background: $primaryColor;
+                background: $blackColor;
             }
             .title {
                 color: white;
@@ -172,6 +244,135 @@ $titleFontSize: 70px;
             }
         }
     }
+
+    
+}
+ /*--------------------- Beauty Power Area -------------------*/
+ .beauty_power {
+    color: #000000 !important;
+    margin-bottom: 8em;
+    h2 {
+        font-size: 56px;
+        letter-spacing: -3px;
+        line-height: 41px;
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: 900;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+
+    p {
+        width: 80%;
+        margin: auto;
+        font-size: 17px;
+    }
+ }
+
+ /*--------------------------- How we works Area ----------------------------------*/
+
+ .how_we_work {
+    color: #000000 !important;
+    margin-bottom: 2em;
+    h2 {
+        font-size: 56px;
+        letter-spacing: -3px;
+        line-height: 41px;
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: 900;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+
+    p {
+        width: 80%;
+        margin: auto;
+        font-size: 17px;
+    }
+ }
+/*---------------------------- Introduction Area -----------------*/
+.introduction {
+    width: 95% !important;
+    padding: 1%;
+    color: white;
+
+    .introduction_left_string {
+        color: black;
+        width:60%;
+        margin:auto;
+        text-align: left;
+    }
+
+    .introduction-thumb {
+        margin: 0 auto;
+        margin-bottom: 9%;
+        /* width: 100%;
+        height: 100%; */
+        transform: skewX(-20deg);
+        float: left;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        cursor: default;
+        
+        .title, .body {
+            transform: skewX(20deg);
+        }
+ 
+        img {
+            width: 100%;
+            height: 400px;
+            transition: transform .25s, visibility .25s ease-in;
+        }
+        :hover img {
+            transform: scale(1.5);
+        }
+        .image-container {
+            .hover-content {
+                width: 100% !important;
+                height: 100% !important;
+                background: $blackColor;
+            }
+            .title {
+                color: white;
+                opacity: 1;
+                margin-top: 80%;
+                font-weight: 900;
+                font-size: 30px;
+                font-family: $secondaryFont;
+            }
+            .hover-content.fadeIn {
+                opacity: 0.8;
+            }
+        }
+    }
+    
+}
+
+/*---------------------- Footer section ----------------------*/
+.footer  {
+    height: 400px;
+    width: 100vw;
+    background: url('./img/footer.png');
+
+    .agency_btn {
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        padding: 5px 20px;
+        text-align: center;
+        transform: skewX(40deg);
+        margin: 0;
+        margin-top: 300px;
+    }
+    
+    .agency_btn * {
+        transform: skewX(-40deg);
+        font-weight: bold;
+        margin: 0 !important;
+    }
+
 }
 
 
@@ -208,7 +409,7 @@ $titleFontSize: 70px;
 
 /*---------------------- footer area --------------------------*/
 footer {
-    background: $thirdColor;
+    background: $blackColor;
 }
 
 /*---------------------------------------------------------------*/
@@ -406,6 +607,14 @@ footer {
     text-align: left !important;
 }
 
+.banner-area .banner-image {
+    height: 320px;
+    width: 350px;
+}
+
+
+
+
 /* for mobile phones (portrait) */
 @media (min-width: 320px) and (max-width: 480px) {
 
@@ -452,6 +661,7 @@ footer {
         .about-us-text-area {
             h2 {
                 font-size: 25px;
+                text-transform: uppercase;
             }
         }
     }
@@ -532,10 +742,9 @@ footer {
 @media (min-width: 992px) {
     .banner {
         
-        padding: 190px 0 125px;
-
+        padding: 150px 0 125px;
         .banner-text {
-            padding-top: 39%;
+            padding-top: 0;
         }
     }
 
@@ -559,7 +768,6 @@ footer {
         }
 
         .banner-image {
-            width: 23% !important;
             margin-top: 30px;
         }
     }
@@ -619,7 +827,6 @@ footer {
             }
         }
         .banner-image {
-        width: 50%;
         margin-top: 30px;
         }
     }

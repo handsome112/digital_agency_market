@@ -7,8 +7,8 @@ const Navbar = () => {
         <header className="header-color">
             <nav className="navbar navbar-expand-lg text-center">
                 <div className="container">
-                    <Link to="/" className="navbar-brand">Logo</Link>  
-                    {/* <img src = {'logo.png'} /> */}
+                    <Link to="/" className="navbar-brand"><img src = {'logo.png'} style = {{width:'100px'}} /></Link>  
+                    
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon">
                             <i className="fi-xwluxl-three-bars-wide"></i>

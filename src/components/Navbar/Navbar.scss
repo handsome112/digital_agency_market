@@ -11,6 +11,7 @@ sans-serif;
 .header-color {
     position: fixed;
     background-color: #16163c;
+    background-image: linear-gradient(to bottom right, #efddb7, #aa855f);
     top: 0;
     left: 0;
     width: 100%;
@@ -18,7 +19,6 @@ sans-serif;
 
     .navbar-brand {
         color: white;
-        // transform: rotate(-90deg);
         font-weight: 900;
         max-width: 120px;
         max-height: 50px;
@@ -43,12 +43,23 @@ sans-serif;
         padding: 1rem;
         border-bottom: 1px solid $secondaryColor;
     }
+
+    nav.navbar ul li:hover {
+        cursor: pointer;
+        .nav-link {
+            color: #16163c !important;
+        }
+    }
 }
 
+.nav-item:hover {
+    color: #16163c !important;
+    cursor: pointer;
+}
 
 /* for mobile phones (portrait) */
 @media (min-width: 320px) and (max-width: 480px) {
-    header-color {
+    .header-color {
 
         .navbar {
             padding-top: 5%;
@@ -90,7 +101,7 @@ sans-serif;
 
 /* iphone X */
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation : landscape) {
-    header-color {
+    .header-color {
         .navbar {
             margin-top: 13px;
         }
@@ -111,7 +122,7 @@ sans-serif;
 /* for mobile phones (landscape) */
 /* iphone 6/7/8 */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation : landscape) {
-    header-color {
+    .header-color {
 
         .navbar {
             margin-top: 13px;
@@ -136,7 +147,7 @@ sans-serif;
 
 /* tablets (portrait) */
 @media (min-width: 768px) and (max-width: 1024px) {
-    header-color {
+    .header-color {
 
         .navbar {
             margin-top: 13px;
