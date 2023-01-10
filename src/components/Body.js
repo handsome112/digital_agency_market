@@ -13,30 +13,32 @@ class Body extends Component {
     render() {
         return (
             <>
-                <section className="about-us-area text-white">
-                    <div className="container text-center">
-                        <div className="row align-items-center">
-                            <div className="col-12">
-                                <div className="about-us-text-area mb-5 mt-5">
-                                    <h2 className="about-us-text title-font-3">
-                                        all about beauty.
-                                    </h2>
-                                    <p className='mt-5'>
-                                        Beauty Power was established with the expertise of a team of marketing, sales and procurement professionals, specializing in the beauty industry.
-                                    </p>
+                <div className='green_bg'>
+                    <section className="about-us-area text-white">
+                        <div className="container text-center">
+                            <div className="row align-items-center">
+                                <div className="col-12">
+                                    <div className="about-us-text-area mb-5 mt-15">
+                                        <h2 className="about-us-text title-font-3">
+                                            all about beauty.
+                                        </h2>
+                                        <p className='mt-5'>
+                                            Beauty Power was established with the expertise of a team of marketing, sales and procurement professionals, specializing in the beauty industry.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
 
-                <Portfolio />
+                    <Portfolio />
+                </div>
 
                 <section className="beauty_power text-white">
                     <div className="container text-center">
                         <div className="row align-items-center">
                             <div className="col-12">
-                                <div className="about-us-text-area mb-5 mt-5">
+                                <div className="about-us-text-area mb-5 mt-15">
                                     <h2 className="about-us-text title-font-3">
                                         beauty power
                                     </h2>
@@ -55,7 +57,7 @@ class Body extends Component {
                     <div className="container text-center">
                         <div className="row align-items-center">
                             <div className="col-12">
-                                <div className="about-us-text-area mb-5 mt-5">
+                                <div className="about-us-text-area mb-5 mt-15">
                                     <h2 className="about-us-text title-font-3">
                                         How We Works
                                     </h2>
@@ -66,7 +68,7 @@ class Body extends Component {
                 </section>
 
                 <Introduction />
-                <div className='footer'>
+                <div className='footer footer_region'>
                     <label className='agency_btn'> <label>KNOW MORE</label> </label>
                 </div>
             </>
