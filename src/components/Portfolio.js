@@ -33,7 +33,7 @@ class Portfolio extends Component {
                             ))}
                         </div>
                         <div className='mt-5 footer'>
-                            <label className = 'agency_btn mt-5'> <label>KNOW MORE</label> </label>
+                            <label className = 'agency_btn mt-5'> <label><Link to="/" className="contact-link">Contact Us</Link></label> </label>
                         </div>
                     </div>
                 </section>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../img/intro.png';
 import Shadow from '../img/shadow.png';
+import {Link} from 'react-router-dom';
 import '../App.scss';
 
 function Banner() {
@@ -31,7 +32,7 @@ function Banner() {
                             <p>We are a creative agency who makes life easy for thousands of peoples.</p>
                         </div>
                         <div className='know_more'>
-                            <label className='agency_btn'> <label>KNOW MORE</label> </label>
+                            <label className='agency_btn'><label><Link to="/" className="contact-link">Contact Us</Link></label></label>
                         </div>
                     </div>
                 </div>

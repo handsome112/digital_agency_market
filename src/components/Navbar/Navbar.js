@@ -6,12 +6,13 @@ const Navbar = () => {
     return(
         <header className="header-color">
             <nav className="navbar navbar-expand-lg text-center">
-                <div className="container">
+                <div className="container-fluid">
                     <Link to="/" className="navbar-brand"><img src = {'logo.png'} style = {{width:'100px'}} /></Link>  
                     
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon">
-                            <i className="fi-xwluxl-three-bars-wide"></i>
+                            {/* <i className="glyphicon glyphicon-home"></i> */}
+                            &#9776;
                         </span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -20,16 +21,13 @@ const Navbar = () => {
                                 <Link to="/" className="nav-link">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/services" className="nav-link">Services</Link>
+                                <Link to="/" className="nav-link">Our Services</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/works" className="nav-link">Works</Link>
+                                <Link to="/" className="nav-link">Works</Link>
                             </li>
-                            {/* <li className="nav-item">
-                                <Link to="/team" className="nav-link">Team</Link>
-                            </li> */}
                             <li className="nav-item">
-                                <Link to="/contact" className="nav-link">Contact</Link>
+                                <Link to="/" className="nav-link">Contact</Link>
                             </li>
                         </ul>
                     </div> 

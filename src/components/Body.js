@@ -20,7 +20,7 @@ class Body extends Component {
                                 <div className="col-12">
                                     <div className="about-us-text-area mb-5 mt-15">
                                         <h2 className="about-us-text title-font-3">
-                                            all about beauty.
+                                            About Us
                                         </h2>
                                         <p className='mt-5'>
                                             Beauty Power was established with the expertise of a team of marketing, sales and procurement professionals, specializing in the beauty industry.
@@ -69,7 +69,7 @@ class Body extends Component {
 
                 <Introduction />
                 <div className='footer footer_region'>
-                    <label className='agency_btn'> <label>KNOW MORE</label> </label>
+                    <label className='agency_btn'> <label><Link to="/" className="contact-link">Contact Us</Link></label> </label>
                 </div>
             </>
         );

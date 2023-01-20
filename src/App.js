@@ -29,7 +29,6 @@ import './App.scss';
                         <Route exact path = "/services" component = {Services}/>
                         <Route exact path = "/works" component = {Works}/>
                         <Route exact path = {'/works/:id'} component = {PortfolioDetail}/>
-                        {/* <Route exact path = {'/team'} component = {OurTeam}/> */}
                         
                     </Switch>
                     <Footer/>
